@@ -2,8 +2,14 @@
 import Image from "next/image";
 import Header from "./_components/Header";
 import Hero from "./_components/Hero";
+import Banner from "./_components/Banner/Banner";
+import Footer from "./_components/Footer/Footer";
+import Navbar from "./_components/Navbar/Navbar";
+import Provide from "./_components/Provide";
+import Why from "./_components/Why";
 import { useKindeBrowserClient } from "@kinde-oss/kinde-auth-nextjs";
 import { useEffect } from "react";
+import Newsletter from "./_components/Newsletter/Newsletter";
 
 export default function Home() {
 
@@ -14,8 +20,14 @@ export default function Home() {
   },[user])
   return (
     <div>
-      <Header/>
-      <Hero/>
+      {/* <Header/>
+      <Hero/> */}
+      <Navbar />
+      <Banner />
+      <Provide />
+      <Why />
+    <Newsletter />
+      <Footer />
     </div>
   );
 }

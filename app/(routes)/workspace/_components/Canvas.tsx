@@ -26,28 +26,14 @@ function Canvas({onSaveTrigger,fileId,fileData}:{onSaveTrigger:any,fileId:any,fi
     }}
     onChange={(excalidrawElements, appState, files)=>
         setWhiteBoardData(excalidrawElements)}
-    UIOptions={{
-        canvasActions:{
-            saveToActiveFile:false,
-            loadScene:false,
-            export:false,
-            toggleTheme:false
-
-        }
-    }}
+    
     >
-        <MainMenu>
-            <MainMenu.DefaultItems.ClearCanvas/>
-            <MainMenu.DefaultItems.SaveAsImage/>
-            <MainMenu.DefaultItems.ChangeCanvasBackground/>
-        </MainMenu>
+       
         <WelcomeScreen>
             <WelcomeScreen.Hints.MenuHint/>
             <WelcomeScreen.Hints.MenuHint/>
             <WelcomeScreen.Hints.ToolbarHint/>
-            <WelcomeScreen.Center>
-                <WelcomeScreen.Center.MenuItemHelp/>
-            </WelcomeScreen.Center>
+          
         </WelcomeScreen>
         </Excalidraw>}
   </div>

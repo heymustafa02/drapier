@@ -73,17 +73,17 @@ function FileList() {
         </td>
         <td className="whitespace-nowrap px-4 py-2 text-gray-700">
          
-          <DropdownMenu>
+          {/* <DropdownMenu>
   <DropdownMenuTrigger>
   <MoreHorizontal/>
   </DropdownMenuTrigger>
   <DropdownMenuContent>
    
-    <DropdownMenuItem className='gap-3'>
-       <Archive className='h-4 w-4'/> Archive</DropdownMenuItem>
-   
+    {/* <DropdownMenuItem className='gap-3'>
+       <Archive className='h-4 w-4'/> Archive</DropdownMenuItem> */}
+{/*    
   </DropdownMenuContent>
-</DropdownMenu>
+</DropdownMenu> */} 
 
         </td>
       </tr>
