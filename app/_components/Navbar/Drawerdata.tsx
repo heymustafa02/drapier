@@ -45,7 +45,7 @@ const Data = () => {
             </button>
            
             <RegisterLink> 
-              <button className="bg-blue-400 w-full hover:bg-blue-400 hover:text-white text-blue-500 font-medium my-2 py-2 px-4 rounded">
+              <button className="bg-sky-100 w-full hover:bg-sky-500 hover:text-white text-black font-medium my-2 py-2 px-4 rounded">
                 </button></RegisterLink>  
             
           </div>

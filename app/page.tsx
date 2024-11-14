@@ -10,6 +10,8 @@ import Why from "./_components/Why";
 import { useKindeBrowserClient } from "@kinde-oss/kinde-auth-nextjs";
 import { useEffect } from "react";
 import Newsletter from "./_components/Newsletter/Newsletter";
+import { Separator } from "@/components/ui/separator";
+import { SeparatorHorizontal } from "lucide-react";
 
 export default function Home() {
 
@@ -20,11 +22,12 @@ export default function Home() {
   },[user])
   return (
     <div>
-      {/* <Header/>
-      <Hero/> */}
+      
       <Navbar />
       <Banner />
+      <Separator />
       <Provide />
+      <Separator/>
       <Why />
     <Newsletter />
       <Footer />

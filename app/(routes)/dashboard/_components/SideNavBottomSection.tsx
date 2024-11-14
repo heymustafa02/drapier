@@ -16,18 +16,18 @@ import Constant from "@/app/_constant/Constant";
 import PricingDialog from "./PricingDialog";
 function SideNavBottomSection({ onFileCreate, totalFiles }: any) {
   const menuList=[
-    {
-      id:1,
-      name:'Getting Started',
-      icon:Flag,
-      path:''
-    },
-    {
-      id:2,
-      name:'Github',
-      icon:Github,
-      path:''
-    },
+    // {
+    //   id:1,
+    //   name:'Getting Started',
+    //   icon:Flag,
+    //   path:''
+    // },
+    // {
+    //   id:2,
+    //   name:'Github',
+    //   icon:Github,
+    //   path:''
+    // },
     {
       id:3,
       name:'Archive',

@@ -1,5 +1,5 @@
 {
-  "name": "erasor_clone",
+  "name": "drapier",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -22,7 +22,7 @@
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-popover": "^1.0.7",
-    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -47,12 +47,20 @@
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },
-  "description": "![Build   Deploy Erasor io Clone Using Next Js   React with Typescript](https://github.com/rrs301/erasor_clone/assets/20216436/4dfdc7cf-3b26-43ca-bcb0-7afcb19c190a)",
+  "description": "The Workspace that fuels Creativity",
   "main": "postcss.config.js",
   "directories": {
     "lib": "lib"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Mustafa Mallebhari",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heymustafa02/drapier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heymustafa02/drapier/issues"
+  },
+  "homepage": "https://github.com/heymustafa02/drapier#readme"
 }

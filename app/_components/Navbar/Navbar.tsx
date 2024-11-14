@@ -70,7 +70,7 @@ const Navbar = () => {
         {/* LOGIN DIALOG */}
         <div className="flex items-center space-x-4">
             <div className="hidden lg:block">
-                <button type="button" className="text-lg text-blue font-medium">
+                <button type="button" className="text-lg text-customBlue font-medium">
                     <div>
                         <LoginLink postLoginRedirectURL="/dashboard">
                             Login
@@ -82,7 +82,7 @@ const Navbar = () => {
             {/* REGISTER DIALOG */}
             <div className="hidden lg:block">
             <RegisterLink>
-                <button className="text-blue-500 text-lg font-medium ml-9 py-5 px-16 transition duration-150 ease-in-out leafbutton bg-sky-400 hover:text-white hover:bg-sky-600">
+                <button className="text-customBlue text-lg font-medium ml-9 py-5 px-16 transition duration-150 ease-in-out leafbutton bg-customBluebg  hover:text-white hover:bg-customBlue hover:opacity-100">
                     Register 
                 </button></RegisterLink>
             </div>
