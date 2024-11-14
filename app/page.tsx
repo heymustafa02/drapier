@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image";
-import Header from "./_components/Header";
-import Hero from "./_components/Hero";
+
 import Banner from "./_components/Banner/Banner";
 import Footer from "./_components/Footer/Footer";
 import Navbar from "./_components/Navbar/Navbar";
