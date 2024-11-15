@@ -23,4 +23,5 @@ function AdBanner({props}:any) {
     
 }
 
+
 export default AdBanner
